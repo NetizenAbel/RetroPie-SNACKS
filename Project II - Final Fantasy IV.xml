@@ -1,0 +1,28 @@
+<game id="1659" source="Romhacking.net">
+    <path>./Project II - Final Fantasy IV.zip</path>
+    <name>Project II - Final Fantasy IV</name>
+    <desc>Project II: Final Fantasy IV is an extensive script rewrite of Final Fantasy II for Super Nintendo, made largely with Pinkpuff’s FF4kster. When FFII released in 1991, it came with a subpar script. Through the years Final Fantasy IV received many English script revisions, but nearly all ports of the game have long load screens, lag, and sound issues. In addition, a wide swath of enhancements and bug fixes are only available for the English Super NES version.
+
+One may ask, “Why not play J2e’s patch?” Unfortunately, J2e’s translation is rife with messy hacking, memes, and a script that was half made up and half pulled from the English SNES script. Project II’s goal is to stay truer to the real FFIV.
+
+Enter the Crusade for the Crystals once more with Project II!
+
+Features:
+
+Entirely rewritten script, taking elements from various localizations of Final Fantasy IV.
+Restored missing content: use Pray, Salve, and Recall, find SomaDrops and Firebombs in chests, learn Shell, and more.
+Updated title screen by Paladin.
+Every spell has an in-battle use, thanks to Dragonsbrethren and Deathlike2.
+Improved battle commands: Regen heals 160 HP per round, Cry lowers Magic Defense, plus others.
+Reverted censored map graphics: the Baron dancer strips again.
+Plethora of bug fixes.
+Sirens can be bought from an end-game shop.
+Supplementary lists for understanding equipment properties.
+…And much more. See the readme for detailed information.</desc>
+		<marquee>./wheel/Project II - Final Fantasy IV.png</marquee>
+		<releasedate>20190828T000000</releasedate>
+		<developer>vivify93</developer>
+		<publisher>romhacking.net</publisher>
+		<genre>Role Playing</genre>
+		<players>1</players>
+    </game>
