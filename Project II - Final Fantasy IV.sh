@@ -1,24 +1,27 @@
 #!/usr/bin/env bash
 
-HACKS_DIR="/pi/RetroPie/roms/snesh"
-ROMS_DIR="/pi/RetroPie/roms/snes"
-WHEELS_DIR="${HACKS_DIR}/wheel"
+# Universal bits
+readonly HACKS_DIR="/pi/RetroPie/roms/snesh"
+readonly ROMS_DIR="/pi/RetroPie/roms/snes"
 
-#
-# Project II - Final Fantasy IV
-#
-HACK="Project\ II\ -\ Final\ Fantasy\ IV"
-ROM="Final\ Fantasy\ II \(USA\).zip"
-WHEEL="./wheel/${HACK}.png"
-XML="$(cat ${HACK}.xml)"
-
-
-function installHack (){
-    cp "${HACK}.ips" $HACKS_DIR
-    cp "$WHEEL" "$WHEELS_DIR"
-    ln -s "${ROMS_DIR}/${ROM}" "${HACKS_DIR}/${HACK}.zip"
+function installHack () {
+    cp "$PATCH.ips" "$HACKS_DIR"
+    cp "$WHEEL" "$HACKS_DIR/wheel/"
+    ln -s "$ROM" "$HACKS_DIR/$PATCH.zip"
     cp $HACKS_DIR/gamelist.xml $HACKS_DIR/gamelist.xml.bak
-    sed "\'2i\${XML}\\\'" $HACKS_DIR/gamelist.1.xml
+    sed -i '$ d' $HACKS_DIR/gamelist.xml
+    cat "$PATCH".xml >> $HACKS_DIR/gamelist.xml
 }
 
+function main() {
+#
+# Project II - Final Fantasy IV
+# http://www.romhacking.net/hacks/1659/
+
+PATCH="Project\ II\ -\ Final\ Fantasy\ IV"
+ROM="Final\ Fantasy\ II \(USA\).zip"
+WHEEL="./wheel/Project\ II\ -\ Final\ Fantasy\ IV.png"
 installHack
+}
+
+main
