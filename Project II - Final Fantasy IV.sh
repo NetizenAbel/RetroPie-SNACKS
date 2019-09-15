@@ -18,10 +18,11 @@ function main() {
 # Project II - Final Fantasy IV
 # http://www.romhacking.net/hacks/1659/
 
-PATCH="Project II - Final Fantasy IV"
-ROM="Final Fantasy II (USA).zip"
-WHEEL="./wheel/Project II - Final Fantasy IV.png"
-installHack
+NAME="Project II - Final Fantasy IV"
+echo $PATCH
+cat $PATCH.xml | grep "desc"
+ROM="$ROMS_DIR/Final Fantasy II (USA).zip"
+echo $ROM
 }
 
 main
