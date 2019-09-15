@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Universal bits
-readonly HACKS_DIR="/pi/RetroPie/roms/snesh"
-readonly ROMS_DIR="/pi/RetroPie/roms/snes"
+readonly HACKS_DIR="/home/pi/RetroPie/roms/snesh"
+readonly ROMS_DIR="/home/pi/RetroPie/roms/snes"
 
 function installHack () {
     cp "$PATCH.ips" "$HACKS_DIR"
