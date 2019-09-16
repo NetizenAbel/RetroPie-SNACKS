@@ -67,12 +67,13 @@ function is_sudo() {
 }
 
 function updatePatches() {
-	cd $HACKS_DIR
     for HACK in ./HACKLIST
     do
-        echo wget -c ${HACK} -o ${HACKS_DIR}/ >./HACKSCRIPT
-        dialogInfo "Downloading hacks...$(sh ./HACKSCRIPT)"
-	done
+        echo wget -c ${HACK} >./HACKSCRIPT
+        cd $HACKS_DIR
+        dialogInfo "Downloading hacks...$(sh ${SCRIPT_DIR}/HACKSCRIPT)"
+	cd $SCRIPT_DIR
+    done
 }
 
 function fixDiscNumbers() {
