@@ -67,7 +67,7 @@ function is_sudo() {
 }
 
 function updatePatches() {
-    for HACK in ./HACKLIST
+    for HACK in $(cat ./HACKLIST)
     do
         cd "$HACKS_DIR"
         echo wget -c ${HACK} >./HACKSCRIPT
