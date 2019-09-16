@@ -69,10 +69,11 @@ function is_sudo() {
 function updatePatches() {
     for HACK in ./HACKLIST
     do
+        cd "$HACKS_DIR"
         echo wget -c ${HACK} >./HACKSCRIPT
-        cd $HACKS_DIR
-        dialogInfo "Downloading hacks...$(sh ${SCRIPT_DIR}/HACKSCRIPT)"
-	cd $SCRIPT_DIR
+        dialogInfo "Downloading hacks...$(sh ./HACKSCRIPT)"
+	rm -f ./HACKSCRIPT
+	cd "$SCRIPT_DIR"
     done
 }
 
