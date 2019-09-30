@@ -1,4 +1,4 @@
-name: SNESHACKS
+name: SNACKS
 on: [push, pull_request]
 
 jobs:
