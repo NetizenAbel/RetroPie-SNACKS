@@ -1,0 +1,9 @@
+name: SNESHACKS
+on: [push, pull_request]
+
+jobs:
+  my-job:
+    name: DoTheThings
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
