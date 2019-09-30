@@ -1,4 +1,5 @@
-# RetroPie-snes-hacks
+# RetroPie-SNACKS
+### SN(ES)(H)ACKS
 
 ![github-actions-badge][] [![buymeacoffee][buymeacoffeebadge]][buymeacoffee]
 
