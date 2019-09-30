@@ -1,7 +1,8 @@
 # RetroPie-snes-hacks
 
-[![][github-actions-badge]][] [![buymeacoffee][buymeacoffeebadge]][buymeacoffee]
-Collectino of IPS patches for use with RetroPie-extra-snesh
+[![github-actions-badge][] [![buymeacoffee][buymeacoffeebadge]][buymeacoffee]
+
+IPS patch finding thing for use with RetroPie-extra-snesh
 
 ## License
 
