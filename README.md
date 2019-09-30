@@ -1,6 +1,6 @@
 # RetroPie-snes-hacks
 
-[![github-actions-badge][] [![buymeacoffee][buymeacoffeebadge]][buymeacoffee]
+![github-actions-badge][] [![buymeacoffee][buymeacoffeebadge]][buymeacoffee]
 
 IPS patch finding thing for use with RetroPie-extra-snesh
 
