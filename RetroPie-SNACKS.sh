@@ -73,7 +73,7 @@ for HACK in ./HACKLIST
 
 function fixDiscNumbers() {
 	cd $ROMS_DIR || exit
-	for OLD_NAME in $ROMS_DIR/*\(Disc\ [0-9]\).chd
+	for OLD_NAME in "$ROMS_DIR"/*\(Disc\ [0-9]\).chd
 	do
 		dialogInfo "Fixing filenames for multi-disc games,\nPlease wait..."
 		NEW_NAME="${OLD_NAME/\ \(Disc\ /.cd}"
@@ -87,7 +87,7 @@ function fixDiscNumbers() {
 function generateM3U() {
 	cd $ROMS_DIR || exit
 	rm -f $ROMS_DIR/*.m3u
-	for ROM_NAME in $ROMS_DIR/*.cd[0-9]
+	for ROM_NAME in "$ROMS_DIR"/*.cd[0-9]
 	do
 		M3U_FILE="${ROM_NAME%.*}.m3u"
 		dialogInfo "Generating M3Us ..."
@@ -98,11 +98,11 @@ function generateM3U() {
 
 function cleanUpCueBins() {
 	cd $ROMS_DIR || exit
-	for CUE in $ROMS_DIR/*.cue
+	for CUE in "$ROMS_DIR"/*.cue
 	do
 		mv "$CUE" "${CUE%.*}.cuebak"
 	done
-	for BIN in $ROMS_DIR/*.bin
+	for BIN in "$ROMS_DIR"/*.bin
 	do
 		rm -f "$BIN"
 	done
