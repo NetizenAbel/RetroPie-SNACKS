@@ -57,7 +57,7 @@ cd $HACKS_DIR || exit
 for HACK in $(cat ./HACKLIST)
     do
         cd "$HACKS_DIR" || exit
-        echo wget -c ${HACK} -o ${HACKS_DIR}/ >./HACKSCRIPT
+        echo wget -c "${HACK}" -o ${HACKS_DIR}/ >./HACKSCRIPT
         dialogInfo "Downloading hacks...$(sh ./HACKSCRIPT)"
     rm -f ./HACKSCRIPT
     cd "$SCRIPT_DIR" || exit
@@ -71,7 +71,7 @@ function fixDiscNumbers() {
 		dialogInfo "Fixing filenames for multi-disc games,\nPlease wait..."
 		NEW_NAME="${OLD_NAME/\ \(Disc\ /.cd}"
 		NEW_NAME="${NEW_NAME/\).chd/}"
-		dialogInfo "Fixing $NEW_NAMEFixing\nPlease wait..."
+		dialogInfo "Fixing $NEW_NAME Fixing\nPlease wait..."
 		mv "$OLD_NAME" "${NEW_NAME}"
 	done
 }
