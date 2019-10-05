@@ -80,7 +80,6 @@ for HACK in ./HACKLIST
 	rm -f ./HACKSCRIPT
 	cd "$SCRIPT_DIR"
     done
->>>>>>> 219af2411c54361391b63918f03dcf7b3e038d30
 }
 
 function fixDiscNumbers() {
