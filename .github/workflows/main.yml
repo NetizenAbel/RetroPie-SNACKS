@@ -7,3 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+      name: Check out the source
+    - uses: zbeekman/ShellCheck-Linter-Action@master
+      name: Check the scripting
