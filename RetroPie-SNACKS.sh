@@ -54,7 +54,7 @@ function is_sudo() {
 }
 
 function updatePatches() {
-cd $HACKS_DIR
+cd $HACKS_DIR || exit
 for HACK in ./HACKLIST
     do
         echo wget -c ${HACK} -o ${HACKS_DIR}/ >./HACKSCRIPT
@@ -63,16 +63,16 @@ for HACK in ./HACKLIST
 	
     for HACK in $(cat ./HACKLIST)
     do
-        cd "$HACKS_DIR"
+        cd "$HACKS_DIR" || exit
         echo wget -c ${HACK} >./HACKSCRIPT
         dialogInfo "Downloading hacks...$(sh ./HACKSCRIPT)"
 	rm -f ./HACKSCRIPT
-	cd "$SCRIPT_DIR"
+	cd "$SCRIPT_DIR" || exit
     done
 }
 
 function fixDiscNumbers() {
-	cd $ROMS_DIR
+	cd $ROMS_DIR || exit
 	for OLD_NAME in $ROMS_DIR/*\(Disc\ [0-9]\).chd
 	do
 		dialogInfo "Fixing filenames for multi-disc games,\nPlease wait..."
@@ -85,7 +85,7 @@ function fixDiscNumbers() {
 
 
 function generateM3U() {
-	cd $ROMS_DIR
+	cd $ROMS_DIR || exit
 	rm -f $ROMS_DIR/*.m3u
 	for ROM_NAME in $ROMS_DIR/*.cd[0-9]
 	do
@@ -97,7 +97,7 @@ function generateM3U() {
 }
 
 function cleanUpCueBins() {
-	cd $ROMS_DIR
+	cd $ROMS_DIR || exit
 	for CUE in $ROMS_DIR/*.cue
 	do
 		mv "$CUE" "${CUE%.*}.cuebak"
@@ -109,7 +109,7 @@ function cleanUpCueBins() {
 }
 
 function fixGameListXML() {
-	cd $ROMS_DIR
+	cd $ROMS_DIR || exit
 	cp $ROMS_DIR/gamelist.xml $ROMS_DIR/gamelist.xml.bak
 	sed -e 's/\.cue/.chd/g' \
 	    -e 's/\.PBP/.chd/g' \
