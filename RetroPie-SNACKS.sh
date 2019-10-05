@@ -14,25 +14,14 @@
 # - sed
 # - SNESH as a system in ES
 
-# Globals
-# If the script is called via sudo, detect the user who called it and the homedir.
-user="$SUDO_USER"
-[[ -z "$user" ]] && user="$(id -un)"
-
-home="$(eval echo ~$user)"
-
 # Variables
 readonly ROMS_DIR="/home/pi/RetroPie/roms/snes"
 readonly HACKS_DIR="/home/pi/RetroPie/roms/snesh"
-readonly SCRIPT_VERSION="0.1.0" # https://semver.org/
-readonly SCRIPT_DIR="$(cd "$(dirname $0)" && pwd)"
+export SCRIPT_VERSION="0.1.0" # https://semver.org/
+readonly SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 readonly SCRIPT_NAME="$(basename "$0")"
-readonly SCRIPT_FULL="$SCRIPT_DIR/$SCRIPT_NAME"
-readonly SCRIPT_TEMP="$SCRIPT_DIR/$SCRIPT_NAME/TEMP"
-#readonly SCRIPTMODULE_DIR="/opt/retropie/supplementary/[SCRIPTMODULE_NAME]" # Uncomment if you want/need to use a scriptmoodule.
-readonly GIT_REPO_URL="https://github.com/kashaiahyah85/RetroPie-SNACKS"
-readonly GIT_SCRIPT_URL="https://github.com/kashaiahyah85/RetroPie-snes-hacks/blob/master/SNACKS.sh"
-readonly URL_BASE="https://github.com/kashaiahyah85/RetroPie-SNACKS/raw/devel"
+# readonly SCRIPTMODULE_DIR="/opt/retropie/supplementary/[SCRIPTMODULE_NAME]" # Uncomment if you want/need to use a scriptmoodule.
+# readonly URL_BASE="https://github.com/kashaiahyah85/RetroPie-SNACKS/raw/devel"
 
 # Dialogs
 BACKTITLE="SNACKS: A tool for installing and updating snes hacks."
