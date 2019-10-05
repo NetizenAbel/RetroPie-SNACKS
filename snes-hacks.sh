@@ -2,17 +2,17 @@
 
 # snes-hacks.sh
 #
-# RetroPie snes-hacks
+# RetroPie SN(ES H)ACKS
 # A tool for adding recent hacks and updating older ones. This one is for SNES.
 #
 # Author: kashaiahyah85
-# Repository: https://github.com/kashaiahyah85/RetroPie-snes-hacks)
-# License: MIT https://github.com/kashaiahyah85/RetroPie-snes-hacks/blob/master/LICENSE)
+# Repository: https://github.com/kashaiahyah85/RetroPie-SNACKS)
+# License: MIT https://github.com/kashaiahyah85/RetroPie-SNACKS/blob/master/LICENSE)
 #
 # Requirements:
 # - git
 # - sed
-# - SNESH as system (for now)
+# - SNESH as a system in ES
 
 # Globals
 # If the script is called via sudo, detect the user who called it and the homedir.
@@ -29,15 +29,13 @@ readonly SCRIPT_DIR="$(cd "$(dirname $0)" && pwd)"
 readonly SCRIPT_NAME="$(basename "$0")"
 readonly SCRIPT_FULL="$SCRIPT_DIR/$SCRIPT_NAME"
 readonly SCRIPT_TEMP="$SCRIPT_DIR/$SCRIPT_NAME/TEMP"
-readonly SCRIPT_TITLE="snes-hacks"
-readonly SCRIPT_DESCRIPTION="A tool for installing and updating snes hacks."
 #readonly SCRIPTMODULE_DIR="/opt/retropie/supplementary/[SCRIPTMODULE_NAME]" # Uncomment if you want/need to use a scriptmoodule.
-readonly GIT_REPO_URL="https://github.com/kashaiahyah85/RetroPie-snes-hacks"
-readonly GIT_SCRIPT_URL="https://github.com/kashaiahyah85/RetroPie-snes-hacks/blob/master/snes-hacks.sh"
-readonly URL_BASE="https://github.com/kashaiahyah85/RetroPie-snes-hacks/raw/devel"
+readonly GIT_REPO_URL="https://github.com/kashaiahyah85/RetroPie-SNACKS"
+readonly GIT_SCRIPT_URL="https://github.com/kashaiahyah85/RetroPie-snes-hacks/blob/master/SNACKS.sh"
+readonly URL_BASE="https://github.com/kashaiahyah85/RetroPie-SNACKS/raw/devel"
 
 # Dialogs
-BACKTITLE="$SCRIPT_TITLE: $SCRIPT_DESCRIPTION"
+BACKTITLE="SNACKS: A tool for installing and updating snes hacks."
 
 # dialogYesNo example of usage:
 #dialogYesNo "Do you want to continue?"
@@ -67,14 +65,13 @@ function is_sudo() {
 }
 
 function updatePatches() {
-<<<<<<< HEAD
-	cd $HACKS_DIR
-    for HACK in ./HACKLIST
+cd $HACKS_DIR
+for HACK in ./HACKLIST
     do
         echo wget -c ${HACK} -o ${HACKS_DIR}/ >./HACKSCRIPT
         dialogInfo "Downloading hacks...$(sh ./HACKSCRIPT)"
 	done
-=======
+	
     for HACK in $(cat ./HACKLIST)
     do
         cd "$HACKS_DIR"
