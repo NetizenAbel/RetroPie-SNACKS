@@ -28,7 +28,7 @@ BACKTITLE="SNACKS: A tool for installing and updating snes hacks."
 # dialogYesNo example of usage:
 #dialogYesNo "Do you want to continue?"
 function dialogYesNo() {
-    dialog --no-mouse --backtitle "$BACKTITLE" --yesno "$@" 15 75 2>&1 > /dev/tty
+    dialog --no-mouse --backtitle "$BACKTITLE" --yesno "$@" 15 75 > /dev/tty 2>&1
 }
 
 # dialogMsg example of usage
@@ -54,19 +54,13 @@ function is_sudo() {
 
 function updatePatches() {
 cd $HACKS_DIR || exit
-for HACK in ./HACKLIST
-    do
-        echo wget -c ${HACK} -o ${HACKS_DIR}/ >./HACKSCRIPT
-        dialogInfo "Downloading hacks...$(sh ./HACKSCRIPT)"
-	done
-	
-    for HACK in $(cat ./HACKLIST)
+for HACK in $(cat ./HACKLIST)
     do
         cd "$HACKS_DIR" || exit
-        echo wget -c ${HACK} >./HACKSCRIPT
+        echo wget -c ${HACK} -o ${HACKS_DIR}/ >./HACKSCRIPT
         dialogInfo "Downloading hacks...$(sh ./HACKSCRIPT)"
-	rm -f ./HACKSCRIPT
-	cd "$SCRIPT_DIR" || exit
+    rm -f ./HACKSCRIPT
+    cd "$SCRIPT_DIR" || exit
     done
 }
 
