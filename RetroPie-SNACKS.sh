@@ -54,14 +54,13 @@ function is_sudo() {
 
 function updatePatches() {
 cd $HACKS_DIR || exit
-for HACK in $(cat ./HACKLIST)
+while read ROM_NAME -r
     do
         cd "$HACKS_DIR" || exit
-        echo wget -c "${HACK}" -o ${HACKS_DIR}/ >./HACKSCRIPT
+        echo wget -c "${ROM_NAME}" -o ${HACKS_DIR}/ >./HACKSCRIPT
         dialogInfo "Downloading hacks...$(sh ./HACKSCRIPT)"
-    rm -f ./HACKSCRIPT
-    cd "$SCRIPT_DIR" || exit
-    done
+    done < <(cat ./HACKLIST)
+    rm -f ${HACKS_DIR}/HACKSCRIPT
 }
 
 function fixDiscNumbers() {
