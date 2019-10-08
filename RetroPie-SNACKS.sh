@@ -17,10 +17,6 @@
 # Variables
 readonly ROMS_DIR="/home/pi/RetroPie/roms/snes"
 readonly HACKS_DIR="/home/pi/RetroPie/roms/snesh"
-export SCRIPT_VERSION="0.1.0" # https://semver.org/
-readonly SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-# readonly SCRIPTMODULE_DIR="/opt/retropie/supplementary/[SCRIPTMODULE_NAME]" # Uncomment if you want/need to use a scriptmoodule.
-# readonly URL_BASE="https://github.com/kashaiahyah85/RetroPie-SNACKS/raw/devel"
 
 # Dialogs
 BACKTITLE="SNACKS: A tool for installing and updating snes hacks."
