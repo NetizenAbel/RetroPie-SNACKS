@@ -3,7 +3,7 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1422d6f8a4144852aed4c09bb8f96872)](https://www.codacy.com/manual/kashaiahyah85/RetroPie-snes-hacks?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kashaiahyah85/RetroPie-snes-hacks&amp;utm_campaign=Badge_Grade)  ![github-actions-badge][]  [![buymeacoffee][buymeacoffeebadge]][buymeacoffee]
 
-IPS patch finding thing for use with RetroPie-extra-snesh
+IPS patch finding thing for use with RetroPie
 
 ## License
 
