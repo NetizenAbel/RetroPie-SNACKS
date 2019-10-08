@@ -30,13 +30,13 @@ function dialogYesNo() {
 # dialogMsg example of usage
 #dialogMsg "Failed to install package_name. Try again later."
 function dialogMsg() {
-    dialog --no-mouse --ok-label "OK" --backtitle "$BACKTITLE" --msgbox "$@" 20 70 2>&1 > /dev/tty
+    dialog --no-mouse --ok-label "OK" --backtitle "$BACKTITLE" --msgbox "$@" 20 70 > /dev/tty 2>&1
 }
 
 # dialogInfo example of usage:
 # dialogInfo "Please wait. Compressing $snes_ROM..."
 function dialogInfo {
-    dialog --infobox "$@" 8 50 2>&1 >/dev/tty
+    dialog --infobox "$@" 8 50 >/dev/tty 2>&1
 }
 
 # end of dialog functions ###################################################
