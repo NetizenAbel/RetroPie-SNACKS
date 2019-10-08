@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<gameList>
+	<game id="{game id}">
+		<path>./{Hack}.ips</path>
+		<name>{Hack name}</name>
+		<image>./{Hack}.{png|jpg}</image>
+		<marquee>./{Hack}.{png|jpg}</marquee>
+		<desc>romhacking.net/hacks/{game id}</desc>
+		<video>{Hack name}.{jpg|png}</video>
+	</game>
+	<game id="4621">
+		<path>./Streets of Rage 2 - The Antiheroes.ips</path>
+		<name>Streets of Rage 2 - The Antiheroes</name>
+		<image>./Streets of Rage 2 - The Antiheroesjpg</image>
+		<marquee>./Streets of Rage 2 - The Antiheroes.jpg</marquee>
+		<desc>romhacking.net/hacks/4621
+
+			Hack Author: Dha Lau Hoo
+			
+			This hack features three very popular boss characters from different games as playable characters, plus a furious Blaze.
+			
+			The antiheroes are:
+			
+			* Astro/Scorpion, the boss character from Muscle Bomber/Saturday Night Slam Masters,
+			*Shiva, Mr. X’s bodyguard in SOR2 and SOR3,
+Sagat, the boss character from Street Fighter.
+			
+			Blaze also appears as her dark and furious alter ego. Her helmet can be used as a very deadly weapon.
+
+			The sprites were provided by the following artists, and modified by the author to be used in this hack.
+
+			* Astro/Scorpion by Radman
+			* Sagat by Huo Yan
+			* Blaze is based on an abandoned design of SoRR v4.
+	</desc>
+		<video>Streets of Rage 2 - The Antiheroes.jpg</video>
+	</game>
+	<game id="4564">
+		<path>./The Punisher in the Streets of Rage.ips</path>
+		<name>The Punisher in the Streets of Rage</name>
+		<image>./The Punisher in the Streets of Rage.jpg</image>
+		<marquee>./The Punisher in the Streets of Rage.jpg</marquee>
+		<desc>romhacking.net/hacks/4564
+
+In this game, Bruce and Arnie are extremely powerful as they were in the previous hack “International Action Hereos”, and they can perform offensive special by pressing forward A without costing any health or KO count. If you enjoy wrecking your enemies with overwhelming power, choose them.
+
+If you want to be a Marvel superhero, choose Frank and Nick. They are not as powerful as Bruce and Arnie, but they are still more than enough to punish the guilty. If you choose one of them, you will be given one grenade for every 10 enemies you defeat, and you can press forward A to throw it to the enemies. Frank is slightly more powerful than Nick, while Nick is slightly faster.
+	</desc>
+	<video>./The Punisher in the Streets of Rage.jpg</video>
+</game>
+	<game id="4691">
+		<path>./River City Girls of Rage.zip</path>
+		<name>River City Girls ..of Rage</name>
+		<image>./River City Girls of Rage.png</image>
+		<marquee>./River City Girls of Rage.png</marquee>
+		<desc>
+				romhacking.net/hacks/4691/
+* Characters replaced by Misako, Kyoko, Riki and Kunio.
+* All characters are fast and agile.
+* The voices also match their characters.
+* Neutral Air Attack is now Air to Air. Works great for juggling an opponent in a corner or while playing in Co-op, but can miss when attacking a ground target.
+* Kyoko yell “ORA ORA” in forward special!
+			
+			This hack is based on the Dha Lau Hoo hack.</desc>
+		<video>./River City Girls of Rage.png</video>
+	</game>
+</gameList>
