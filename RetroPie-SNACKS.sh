@@ -17,10 +17,6 @@
 # Variables
 readonly ROMS_DIR="/home/pi/RetroPie/roms/snes"
 readonly HACKS_DIR="/home/pi/RetroPie/roms/snesh"
-export SCRIPT_VERSION="0.1.0" # https://semver.org/
-readonly SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-# readonly SCRIPTMODULE_DIR="/opt/retropie/supplementary/[SCRIPTMODULE_NAME]" # Uncomment if you want/need to use a scriptmoodule.
-# readonly URL_BASE="https://github.com/kashaiahyah85/RetroPie-SNACKS/raw/devel"
 
 # Dialogs
 BACKTITLE="SNACKS: A tool for installing and updating snes hacks."
@@ -34,13 +30,13 @@ function dialogYesNo() {
 # dialogMsg example of usage
 #dialogMsg "Failed to install package_name. Try again later."
 function dialogMsg() {
-    dialog --no-mouse --ok-label "OK" --backtitle "$BACKTITLE" --msgbox "$@" 20 70 2>&1 > /dev/tty
+    dialog --no-mouse --ok-label "OK" --backtitle "$BACKTITLE" --msgbox "$@" 20 70 > /dev/tty 2>&1
 }
 
 # dialogInfo example of usage:
 # dialogInfo "Please wait. Compressing $snes_ROM..."
 function dialogInfo {
-    dialog --infobox "$@" 8 50 2>&1 >/dev/tty
+    dialog --infobox "$@" 8 50 >/dev/tty 2>&1
 }
 
 # end of dialog functions ###################################################
