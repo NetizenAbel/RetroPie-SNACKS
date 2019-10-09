@@ -3,7 +3,7 @@ on: [push, pull_request]
 
 jobs:
   my-job:
-    name: DoTheThings
+    name: Eat the SNACKS
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
