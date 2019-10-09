@@ -4,7 +4,7 @@
 [![bash][bash-badge]][bash] 
 [![buymeacoffee][buymeacoffee-badge]][buymeacoffee] 
 [![codacy][codacy-badge]][codacy] 
-![github-actions-badge][]
+![github-actions-badge]
 [![maintenance][maintenance-badge]][maintenance]
 
 IPS patch finding thing for use with RetroPie
