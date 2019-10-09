@@ -124,4 +124,28 @@ If you want to be a Marvel superhero, choose Frank and Nick. They are not as pow
 		<desc>romhacking.net/hacks/3155</desc>
 		<video>The Tick in Streets of Rage 2.png</video>
 	</game>
+	<game id="4024">
+		<path>./Looney Tunes Edition.zip</path>
+		<name>Looney Tunes Edition</name>
+		<image>./Looney Tunes Edition.png</image>
+		<marquee>./Looney Tunes Edition.png</marquee>
+		<desc>romhacking.net/hacks/4024</desc>
+		<video>Looney Tunes Edition.png</video>
+	</game>
+	<game id="4636">
+		<path>./The New Challengers.zip</path>
+		<name>The New Challengers</name>
+		<image>./The New Challengers.png</image>
+		<marquee>./The New Challengers.png</marquee>
+		<desc>romhacking.net/hacks/4636</desc>
+		<video>The New Challengers.png</video>
+	</game>
+	<game id="4592">
+		<path>./FF Xover 2019 - Special Air Combo Edition.zip</path>
+		<name>FF Xover 2019 - Special Air Combo Edition</name>
+		<image>./FF Xover 2019 - Special Air Combo Edition.png</image>
+		<marquee>./FF Xover 2019 - Special Air Combo Edition.png</marquee>
+		<desc>romhacking.net/hacks/4592</desc>
+		<video>FF Xover 2019 - Special Air Combo Edition.png</video>
+	</game>
 </gameList>
