@@ -1,13 +1,11 @@
 # RetroPie-SNACKS
 ### SN(ES)(H)ACKS
 
-![snyk-png][] [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1422d6f8a4144852aed4c09bb8f96872)](https://www.codacy.com/manual/kashaiahyah85/RetroPie-snes-hacks?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kashaiahyah85/RetroPie-snes-hacks&amp;utm_campaign=Badge_Grade)  ![github-actions-badge][]  [![buymeacoffee][buymeacoffeebadge]][buymeacoffee]
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1422d6f8a4144852aed4c09bb8f96872)](https://www.codacy.com/manual/kashaiahyah85/RetroPie-snes-hacks?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kashaiahyah85/RetroPie-snes-hacks&amp;utm_campaign=Badge_Grade)  ![github-actions-badge][]  [![buymeacoffee][buymeacoffeebadge]][buymeacoffee]
 
 IPS patch finding thing for use with RetroPie
 
-## License
-
-[MIT](/LICENSE).
+![snyk-png][] 
 
 [snyk-png]:https://wakatime.com/share/@kashaiahyah85/0e31ac54-6498-4927-9223-519dfec8f44a.png
 [github-actions-badge]:https://github.com/kashaiahyah85/RetroPie-SNACKS/workflows/SNACKS/badge.svg
