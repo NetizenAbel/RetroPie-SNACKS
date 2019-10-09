@@ -8,11 +8,21 @@
 		<desc>romhacking.net/hacks/{game id}</desc>
 		<video>{Hack name}.{jpg|png}</video>
 	</game>
+	<game id="2891">
+		<path>./TMNT Edition.ips</path>
+		<name>Streets of Rage 2: TMNT Edition</name>
+		<image>./TMNT Edition.png</image>
+		<marquee>./TMNT Edition.png</marquee>
+		<desc>romhacking.net/hacks/2891
+			This is a hack of Streets of Rage 2 that changes all 4 playable characters with the 4 turtles of Teenage Mutant Ninja Turtles.
+	</desc>
+		<video>TMNT Edition.png</video>
+	</game>
 	<game id="4621">
-		<path>./Streets of Rage 2 - The Antiheroes.ips</path>
-		<name>Streets of Rage 2 - The Antiheroes</name>
-		<image>./Streets of Rage 2 - The Antiheroesjpg</image>
-		<marquee>./Streets of Rage 2 - The Antiheroes.jpg</marquee>
+		<path>./Antiheroes.ips</path>
+		<name>Streets of Rage 2: The Antiheroes</name>
+		<image>./Antiheroes.jpg</image>
+		<marquee>./Antiheroes.jpg</marquee>
 		<desc>romhacking.net/hacks/4621
 
 			Hack Author: Dha Lau Hoo
@@ -33,7 +43,7 @@ Sagat, the boss character from Street Fighter.
 			* Sagat by Huo Yan
 			* Blaze is based on an abandoned design of SoRR v4.
 	</desc>
-		<video>Streets of Rage 2 - The Antiheroes.jpg</video>
+		<video>Antiheroes.jpg</video>
 	</game>
 	<game id="4564">
 		<path>./The Punisher in the Streets of Rage.ips</path>
