@@ -1,15 +1,33 @@
 <?xml version="1.0"?>
 <gameList>
-	<game id="{game id}">
-		<path>./{Hack}.ips</path>
-		<name>{Hack name}</name>
-		<image>./{Hack}.{png|jpg}</image>
-		<marquee>./{Hack}.{png|jpg}</marquee>
-		<desc>romhacking.net/hacks/{game id}</desc>
-		<video>{Hack name}.{jpg|png}</video>
+	<game id="3074">
+		<path>./Simpsons Edition.zip</path>
+		<name>Simpsons Edition</name>
+		<image>./Simpsons Edition.png</image>
+		<marquee>./Simpsons Edition.png</marquee>
+		<desc>romhacking.net/hacks/3074</desc>
+		<video>Simpsons Edition.png</video>
+	</game>
+	<game id="3586">
+		<path>./Ditto Edition.zip</path>
+		<name>Ditto Edition</name>
+		<image>./Ditto Edition.png</image>
+		<marquee>./Ditto Edition.png</marquee>
+		<desc>romhacking.net/hacks/3586
+	This hack replaces Axel and Max sprites with a ditto and a shiny ditto. Besides the change of sprites the characters have their physics and their voices changed; and both’s players are invinciblile against partner’s grapple attacks, hits from partner and thrown enemies by partner. Boths Dittos turn into different pokémons as a form of attack</desc>
+		<video>Ditto Edition.png</video>
+	</game>
+	<game id="4244">
+		<path>./Sonic Wars.zip</path>
+		<name>Streets of Rage 2: Sonic Wars</name>
+		<image>./Sonic Wars.png</image>
+		<marquee>./Sonic Wars.png</marquee>
+		<desc>romhacking.net/hacks/4244
+	Sonic, Tails, Knuckles and Amy fight Shadow and Eggman in the Streets of Rage.</desc>
+		<video>Sonic Wars.png</video>
 	</game>
 	<game id="2890">
-		<path>./Scott Pilgrim of Rage 2.ips</path>
+		<path>./Scott Pilgrim of Rage 2.zip</path>
 		<name>Scott Pilgrim of Rage 2</name>
 		<image>./Scott Pilgrim of Rage 2.png</image>
 		<marquee>./Scott Pilgrim of Rage 2.png</marquee>
@@ -17,7 +35,7 @@
 		<video>Scott Pilgrim of Rage 2.png</video>
 	</game>
 	<game id="2891">
-		<path>./TMNT Edition.ips</path>
+		<path>./TMNT Edition.zip</path>
 		<name>Streets of Rage 2: TMNT Edition</name>
 		<image>./TMNT Edition.png</image>
 		<marquee>./TMNT Edition.png</marquee>
@@ -27,7 +45,7 @@
 		<video>TMNT Edition.png</video>
 	</game>
 	<game id="4621">
-		<path>./Antiheroes.ips</path>
+		<path>./Antiheroes.zip</path>
 		<name>Streets of Rage 2: The Antiheroes</name>
 		<image>./Antiheroes.jpg</image>
 		<marquee>./Antiheroes.jpg</marquee>
@@ -54,7 +72,7 @@ Sagat, the boss character from Street Fighter.
 		<video>Antiheroes.jpg</video>
 	</game>
 	<game id="4564">
-		<path>./The Punisher in the Streets of Rage.ips</path>
+		<path>./The Punisher in the Streets of Rage.zip</path>
 		<name>The Punisher in the Streets of Rage</name>
 		<image>./The Punisher in the Streets of Rage.jpg</image>
 		<marquee>./The Punisher in the Streets of Rage.jpg</marquee>
@@ -81,5 +99,21 @@ If you want to be a Marvel superhero, choose Frank and Nick. They are not as pow
 			
 			This hack is based on the Dha Lau Hoo hack.</desc>
 		<video>./River City Girls of Rage.png</video>
+	</game>
+	<game id="4217">
+		<path>./Girls' Paradise.zip</path>
+		<name>Girls' Paradise</name>
+		<image>./Girls' Paradise.png</image>
+		<marquee>./Girls' Paradise.png</marquee>
+		<desc>romhacking.net/hacks/4217</desc>
+		<video>Girls' Paradise.png</video>
+	</game>
+	<game id="4197">
+		<path>./ULTRA 2018.zip</path>
+		<name>ULTRA 2018</name>
+		<image>./ULTRA 2018.png</image>
+		<marquee>./ULTRA 2018.png</marquee>
+		<desc>romhacking.net/hacks/4197</desc>
+		<video>ULTRA 2018.png</video>
 	</game>
 </gameList>
