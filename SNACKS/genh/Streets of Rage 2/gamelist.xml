@@ -8,6 +8,14 @@
 		<desc>romhacking.net/hacks/{game id}</desc>
 		<video>{Hack name}.{jpg|png}</video>
 	</game>
+	<game id="2890">
+		<path>./Scott Pilgrim of Rage 2.ips</path>
+		<name>Scott Pilgrim of Rage 2</name>
+		<image>./Scott Pilgrim of Rage 2.png</image>
+		<marquee>./Scott Pilgrim of Rage 2.png</marquee>
+		<desc>romhacking.net/hacks/2890</desc>
+		<video>Scott Pilgrim of Rage 2.png</video>
+	</game>
 	<game id="2891">
 		<path>./TMNT Edition.ips</path>
 		<name>Streets of Rage 2: TMNT Edition</name>
