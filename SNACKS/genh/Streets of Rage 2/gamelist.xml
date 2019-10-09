@@ -116,4 +116,12 @@ If you want to be a Marvel superhero, choose Frank and Nick. They are not as pow
 		<desc>romhacking.net/hacks/4197</desc>
 		<video>ULTRA 2018.png</video>
 	</game>
+	<game id="3155">
+		<path>./The Tick in Streets of Rage 2.zip</path>
+		<name>The Tick in Streets of Rage 2</name>
+		<image>./The Tick in Streets of Rage 2.png</image>
+		<marquee>./The Tick in Streets of Rage 2.png</marquee>
+		<desc>romhacking.net/hacks/3155</desc>
+		<video>The Tick in Streets of Rage 2.png</video>
+	</game>
 </gameList>
