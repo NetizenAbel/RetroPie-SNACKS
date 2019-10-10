@@ -1,11 +1,13 @@
+ 
 # RetroPie-SNACKS
 ### SN(ES)(H)ACKS
 
 [![bash][bash-badge]][bash] 
-[![github-actions-badge]][github-actions]
 [![codacy][codacy-badge]][codacy] 
 [![maintenance][maintenance-badge]][maintenance]
-[![buymeacoffee][buymeacoffee-badge]][buymeacoffee] 
+[![buymeacoffee][buymeacoffee-badge]][buymeacoffee]
+
+[![github-actions-badge]][github-actions]
 
 Handles all your IPS patches with glee. The name is inappropriate, because the project has shifted toward handling all systems instead.
 
