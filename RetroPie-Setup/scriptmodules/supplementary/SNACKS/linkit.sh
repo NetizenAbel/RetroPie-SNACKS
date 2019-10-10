@@ -15,7 +15,7 @@ function main() {
 		do
 			Link_To="$Hacks/$(basename "${Base_Game}")/$(basename "${Hack}" .ips).zip"
 			echo "$(basename "${Original}")" links to "$(basename "${Link_To}" )"
-	echo		ln "$Original" "$Link_To" && echo "$Link_To"
+			ln "$Original" "$Link_To" && echo "$Link_To"
 		done
 		echo
 	done
