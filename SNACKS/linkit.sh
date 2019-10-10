@@ -1,20 +1,20 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
-function Link_Original() {
-	for Hack in "${i}"/*.ips
-	do
-		Zip_Dest="${i}/$(basename "${Hack}" .ips).zip"
-		echo "Linking ${i} to ${Zip_Dest}"
-		ln -sf "\"../megadrive/${i}.zip\"" "\"${Zip_Dest}\""
-	done
-}
+System="./${1}"
+Hacks="./${2}"
 
 function main() {
-	cd ./genh || echo "No Genesis hacks found."
-	for i in *
+	for Base_Game in $Hacks/*/
 	do
-		echo "Linking ../megadrive/${i}.zip to hacks in genh/${i}/"
-		Link_Original	
+		Original="$System/$(basename "${Base_Game}" .zip).zip"
+
+		for Hack in $Hacks/*/*.ips
+		do
+			Link_To="$Hacks/$(basename "${Base_Game}")/$(basename "${Hack}" .ips).zip"
+			rm -f "$Link_To"
+			ln "$Original" "$Link_To"
+		done
+		echo
 	done
 }
 
