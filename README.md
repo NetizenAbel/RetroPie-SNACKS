@@ -15,7 +15,7 @@ IPS patch finding thing for use with RetroPie
 [bash-badge]:https://img.shields.io/badge/Made%20with-Bash-1f425f.svg
 [codacy]:https://www.codacy.com/manual/kashaiahyah85/RetroPie-snes-hacks?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kashaiahyah85/RetroPie-SNACKS&amp;utm_campaign=Badge_Grade
 [codacy-badge]:https://api.codacy.com/project/badge/Grade/1422d6f8a4144852aed4c09bb8f96872
-[snyk-png]:https://wakatime.com/share/@kashaiahyah85/6c25f5fd-a783-4ec9-8be3-0c43631ebbfc.svg
+[snyk-png]:https://wakatime.com/share/@kashaiahyah85/bf2429a8-9170-4819-b036-fbc88416b7bc.svg
 [github-actions]:https://github.com/kashaiahyah85/RetroPie-SNACKS/actions
 [github-actions-badge]:https://github.com/kashaiahyah85/RetroPie-SNACKS/workflows/SNACKS/badge.svg
 [buymeacoffee]: https://www.buymeacoffee.com/kashaiahyah85
