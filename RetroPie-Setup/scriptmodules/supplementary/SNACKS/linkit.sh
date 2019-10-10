@@ -7,11 +7,11 @@ System="${Roms}/${1}"
 Hacks="${Roms}/${2}"
 
 function main() {
-	for Base_Game in $Hacks/*/
+	for Base_Game in "$Hacks"/*/
 	do
 		Original="$System/$(basename "${Base_Game}" .zip).zip"
 
-		for Hack in $Hacks/*/*.ips
+		for Hack in "$Hacks"/*/*.ips
 		do
 			Link_To="$Hacks/$(basename "${Base_Game}")/$(basename "${Hack}" .ips).zip"
 			echo "$(basename "${Original}")" links to "$(basename "${Link_To}" )"
