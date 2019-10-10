@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/bash
 
 function Link_Original() {
 	for Hack in "${i}"/*.ips
