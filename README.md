@@ -2,10 +2,10 @@
 ### SN(ES)(H)ACKS
 
 [![bash][bash-badge]][bash] 
-[![buymeacoffee][buymeacoffee-badge]][buymeacoffee] 
-[![codacy][codacy-badge]][codacy] 
 [![github-actions-badge]][github-actions]
+[![codacy][codacy-badge]][codacy] 
 [![maintenance][maintenance-badge]][maintenance]
+[![buymeacoffee][buymeacoffee-badge]][buymeacoffee] 
 
 Handles all your IPS patches with glee. The name is inappropriate, because the project has shifted toward handling all systems instead.
 
