@@ -1,0 +1,8 @@
+	<game id="{game id}">
+		<path>./{hack}.zip</path>
+		<name>{hack}</name>
+		<image>./{hack}.png</image>
+		<marquee>./{hack}.png</marquee>
+		<desc>romhacking.net/hacks/{game id}</desc>
+		<video>{hack}.png</video>
+	</game>

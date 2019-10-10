@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # This script will link original roms to their patches.
 
-Home="/home/pi/RetroPie"
-System="$Home/roms/${1}"
-Hacks="$Home/roms/${2}"
+Roms="/Users/kashaiahyah85/github/SNACKS/retropiemenu/SNACKS"
+#Roms="/home/pi/RetroPie/roms"
+System="${Roms}/${1}"
+Hacks="${Roms}/${2}"
 
 function main() {
 	for Base_Game in $Hacks/*/
@@ -13,7 +14,8 @@ function main() {
 		for Hack in $Hacks/*/*.ips
 		do
 			Link_To="$Hacks/$(basename "${Base_Game}")/$(basename "${Hack}" .ips).zip"
-			ln "$Original" "$Link_To" && echo "$Link_To"
+			echo "$(basename "${Original}")" links to "$(basename "${Link_To}" )"
+	echo		ln "$Original" "$Link_To" && echo "$Link_To"
 		done
 		echo
 	done
