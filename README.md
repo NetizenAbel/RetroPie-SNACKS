@@ -5,9 +5,8 @@
 [![bash][bash-badge]][bash] 
 [![codacy][codacy-badge]][codacy] 
 [![maintenance][maintenance-badge]][maintenance]
-[![buymeacoffee][buymeacoffee-badge]][buymeacoffee]
 
-[![github-actions-badge]][github-actions]
+[![github-actions-badge]][github-actions] [![buymeacoffee][buymeacoffee-badge]][buymeacoffee]
 
 Handles all your IPS patches with glee. The name is inappropriate, because the project has shifted toward handling all systems instead.
 
