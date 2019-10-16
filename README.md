@@ -1,11 +1,10 @@
-# RetroPie-SNACKS
-## SN(ES)(H)ACKS
-
-[![bash][bash-badge]][bash] 
+[![maintenance][maintenance-badge]][maintenance] 
 [![codacy][codacy-badge]][codacy] 
-[![maintenance][maintenance-badge]][maintenance]
+[![github-actions][github-actions-badge]][github-actions] 
+[![bash][bash-badge]][bash] 
+[![buymeacoffee][buymeacoffee-badge]][buymeacoffee]
 
-[![github-actions-badge]][github-actions] [![buymeacoffee][buymeacoffee-badge]][buymeacoffee]
+# RetroPie-SNACKS
 
 Handles all (currently Most) your patches with glee. The name is inappropriate, because the project has shifted toward handling all systems instead.
 
