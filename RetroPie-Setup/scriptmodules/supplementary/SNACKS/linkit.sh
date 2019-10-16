@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # This script will link original roms to their patches.
 
-#Roms="/Users/kashaiahyah85/github/SNACKS/retropiemenu/SNACKS"
 Roms="/home/pi/RetroPie/roms"
 System="${Roms}/${1}"
 Hacks="${Roms}/${2}"
