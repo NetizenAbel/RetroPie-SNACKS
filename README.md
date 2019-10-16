@@ -1,6 +1,5 @@
- 
 # RetroPie-SNACKS
-### SN(ES)(H)ACKS
+## SN(ES)(H)ACKS
 
 [![bash][bash-badge]][bash] 
 [![codacy][codacy-badge]][codacy] 
