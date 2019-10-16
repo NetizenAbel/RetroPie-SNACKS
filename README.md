@@ -8,7 +8,7 @@
 
 [![github-actions-badge]][github-actions] [![buymeacoffee][buymeacoffee-badge]][buymeacoffee]
 
-Handles all your IPS patches with glee. The name is inappropriate, because the project has shifted toward handling all systems instead.
+Handles all (currently Most) your patches with glee. The name is inappropriate, because the project has shifted toward handling all systems instead.
 
 [bash]:https://www.gnu.org/software/bash/
 [bash-badge]:https://img.shields.io/badge/Made%20with-Bash-1f425f.svg
