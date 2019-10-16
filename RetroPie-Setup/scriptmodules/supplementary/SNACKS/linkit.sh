@@ -17,7 +17,26 @@ function main() {
 			echo "$(basename "${Original}")" links to "$(basename "${Link_To}" )"
 			ln "$Original" "$Link_To" && echo "$Link_To"
 		done
-		echo
+		echo "Completed linking IPS patches for $System"
+		echo "--------------------------------------------"
+
+		for Hack in "$Hacks"/*/*.bps
+		do
+			Link_To="$Hacks/$(basename "${Base_Game}")/$(basename "${Hack}" .bps).zip"
+			echo "$(basename "${Original}")" links to "$(basename "${Link_To}" )"
+			ln "$Original" "$Link_To" && echo "$Link_To"
+		done
+		echo "Completed linking BPS patches for $System."
+		echo "--------------------------------------------"
+
+		for Hack in "$Hacks"/*/*.xdelta
+		do
+			Link_To="$Hacks/$(basename "${Base_Game}")/$(basename "${Hack}" .xdelta).zip"
+			echo "$(basename "${Original}")" links to "$(basename "${Link_To}" )"
+			ln "$Original" "$Link_To" && echo "$Link_To"
+		done
+		echo "Completed linking XDELTA patches for $System"
+		echo "--------------------------------------------"
 	done
 }
 
