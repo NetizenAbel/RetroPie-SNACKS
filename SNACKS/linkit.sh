@@ -5,6 +5,10 @@ Roms="/home/pi/RetroPie/roms"
 System="${Roms}/${1}"
 Hacks="${Roms}/${2}"
 
+function link_hacks() {
+	echo Linking patches in ./patches/"$(basename "${Hacks}")"/ to "$Hacks"/
+}
+
 function main() {
 	for Base_Game in "$Hacks"/*/
 	do
@@ -39,4 +43,8 @@ function main() {
 	done
 }
 
+# Link newly downloaded patches
+link_hacks
+
+# Link the original roms also
 main
