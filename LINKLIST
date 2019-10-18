@@ -1,3 +1,0 @@
-ln -s /home/pi/RetroPie/roms/snes/NBA\ Jam\ -\ Tournament\ Edition\ \(USA\).zip /home/pi/RetroPie/roms/snesh/NBA\ Jam\ TE\ -\ Double\ Z\ Mod.zip
-ln -s /home/pi/RetroPie/roms/snes/Final\ Fantasy\ II\ \(USA\).zip /home/pi/RetroPie/roms/snesh/Project\ II\ -\ Final\ Fantasy\ IV.zip
-ln -s /home/pi/RetroPie/roms/snes/Lufia\ II\ -\ Rise\ of\ the\ Sinistrals\ \(USA\).zip /home/pi/RetroPie/roms/snesh/Spekkio\ Lufia.zip
